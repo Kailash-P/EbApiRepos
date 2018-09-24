@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="96a1d571c5ea4b209beee4e8945dea71" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.tblBillHistory" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.tblConsumer" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.tblCustomerSupport" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.tblFeedback" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.tblLogin" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.ImportError" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.ImportProfile" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.vCustomerSupport" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.vPaymentDetail" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectricityBoardDatabaseModel.vUnitsConsumption" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ElectricityBoardDatabaseModel.FK__tblBillHi__Consu__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricityBoardDatabaseModel.FK__tblConsum__Login__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricityBoardDatabaseModel.FK__tblCustom__Consu__1F63A897" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectricityBoardDatabaseModel.FK__tblFeedba__Consu__09746778" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
